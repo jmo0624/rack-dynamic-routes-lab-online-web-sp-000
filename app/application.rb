@@ -12,4 +12,5 @@ class Application
       item = @@items.find{|i| i.name == item_name}
       
       if item.nil?
+        resp.write
       
